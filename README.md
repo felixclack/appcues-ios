@@ -5,9 +5,11 @@ The Appcues iOS SDK currently supports **iOS 5.0 and greater**, and only portrai
 
 1. Copy `Appcues.h` and `libAppcues.a` to your Xcode project. B sure to include `Appcues.h` in your precompiled header (.pch) file. The library is a fat binary, so will work on both the iOS simulator and devices.
 2. Under your target's build settings in Xcode, include the `-ObjC` & `-all_load` flags under `Other Linker Flags`.
-![Other linker flags](https://www.dropbox.com/s/je9ph4bd16kmipk/Screenshot%202014-01-22%2013.57.35.png)
+
+    ![Other linker flags](https://raw.github.com/appcues/appcues-ios/master/docs/flags.png)
 3. Include the `QuartzCore` framework in your app
-![Quartz](https://www.dropbox.com/s/3u2xy7lglks39hs/Screenshot%202014-01-22%2013.58.18.png)
+
+    ![Quartz](https://raw.github.com/appcues/appcues-ios/master/docs/quartz.png)
 
 ### Initializing Appcues
 
