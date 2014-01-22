@@ -1,4 +1,4 @@
-# Appcues iOS SDK [Beta]
+# Appcues iOS SDK
 The Appcues iOS SDK currently supports **iOS 5.0 and greater**, and only portrait mode.
 
 ## How to Install
