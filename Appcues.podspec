@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.source = { git: 'https://github.com/felixclack/appcues-ios.git', tag: s.version.to_s }
   s.source_files = 'Appcues/Appcues.h'
   s.summary = 'The AppCues iOS SDK.'
-  s.version = '1.0.0'
+  s.version = '1.0.1'
 end
